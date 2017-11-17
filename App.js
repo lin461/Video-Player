@@ -20,7 +20,7 @@ class App extends React.Component {
   }
 
   chooseVideo(newVideo) {
-    this.setState = ({
+    this.setState({
       src: VIDEOS[newVideo]
     });
   }
